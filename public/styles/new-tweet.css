@@ -1,0 +1,30 @@
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  border-bottom: 5px solid gray;
+  font-weight: bold;
+  padding-bottom: 1em;
+}
+
+textarea {
+  /* padding-bottom: 1em; */
+}
+
+div {
+  /* padding-top: 1em; */
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  font-family: Bungee, sans-serif;
+  color: white;
+  background-color: #4056A1;
+}
+
+output {
+  font-weight: bold;
+}
