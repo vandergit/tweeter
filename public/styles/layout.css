@@ -28,5 +28,63 @@ body {
    width: 90%;
    margin: auto;
    text-align: justify;
-   /* background-color: #f4f1ec; */
  }
+
+ .button-counter {
+   margin-top: 15px;
+   margin-bottom: 25px;
+ }
+
+ .off-limit-counter {
+   color: red;
+ }
+
+article.tweet {
+  border-style: solid;
+  margin-bottom: 2em;
+}
+
+article.tweet header {
+  background-color: #f4f1ec;
+  padding-left: 2%;
+  padding-right: 2%;
+  display: flex;
+  justify-content: space-between;
+}
+
+article.tweet > header >p {
+  color: gray;
+}
+
+article.tweet footer {
+  border-top: 5px solid grey;
+  margin: 2%;;
+  display: flex;
+  justify-content: space-between;
+}
+
+article.tweet > p {
+  margin: 2%;
+}
+
+
+section.tweet-container:hover {
+  box-shadow: 5px 5px lightgray;
+}
+
+.fa-flag:hover {
+  color: blueviolet;
+}
+
+.fa-retweet:hover {
+  color: yellowgreen;
+}
+
+.fa-heart:hover {
+  color: red;
+}
+
+.fa-wolf-pack-battalion {
+  padding-right: 1em;
+  padding-top: 1em;
+}

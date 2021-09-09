@@ -23,9 +23,10 @@
 
     <!-- External JS -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-
+    
     <!-- App JS -->
     <script type="text/javascript" src="/scripts/client.js"></script>
+    <script type="text/javascript" src="/scripts/composer-char-counter.js"></script>
   </head>
 
   <body>
@@ -41,7 +42,7 @@
     <!-- Profile image -->
     <header>
       <div class="container-profile">
-        <div>
+        <div class="icon-position">
             <img src="/images/profile-hex.png"> 
         </div>
         <br>
@@ -58,11 +59,33 @@
         <form method="POST" action="/tweets">
           <label for="tweet-text">What are you humming about?</label>
           <textarea name="text" id="tweet-text"></textarea>
-          <div>
+          <div class="button-counter">
             <button type="submit">Tweet</button>
-            <output name="counter" class="counter" for="tweet-text">140</output>
+            <output id="chars-counter" name="counter" class="counter" for="tweet-text">140</output>
           </div>
         </form>
+        <section class="tweet-container">
+          <article class="tweet" >
+            <header>
+              <div>
+                <i class="fab fa-wolf-pack-battalion"></i>
+                <p>Wolf</p>
+              </div>
+              <p>@Jack</p>
+            </header>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+            <footer>
+              <p>10 days ago</p>
+              <p class="icon-hover">
+                <i class="fas fa-flag"></i>
+                <i class="fas fa-retweet"></i>
+                <i class="fas fa-heart"></i>
+              </p>
+            </footer>
+          </article>
+        </section>
       </section>
     </main>
   </body>

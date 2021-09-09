@@ -9,12 +9,7 @@ label {
   padding-bottom: 1em;
 }
 
-textarea {
-  /* padding-bottom: 1em; */
-}
-
 div {
-  /* padding-top: 1em; */
   display: flex;
   justify-content: space-between;
 }
