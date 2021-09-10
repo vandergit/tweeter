@@ -15,3 +15,7 @@ This repository is the starter code for the project: Students will fork and clon
 
 - Express
 - Node 5.10.x or above
+
+## Screenshots
+![Main Screen - ready for post a tweet](https://raw.githubusercontent.com/vandergit/tweeter/master/docs/Main%20screen.png)
+![A just posted tweet](https://raw.githubusercontent.com/vandergit/tweeter/master/docs/Posted%20tweet.png)
