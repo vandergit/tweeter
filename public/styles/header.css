@@ -1,8 +1,6 @@
 header {
   size: 400px;
   width: 100%;
-  background-color: #000752;
-  background-image: url("https://www.transparenttextures.com/patterns/45-degree-fabric-light.png");
 }
 
 .container-profile {
@@ -10,8 +8,10 @@ header {
   flex-direction: column;
   align-items: center;
   color: white;
+  background-color: #4056a1;
+  background-image: url("https://www.transparenttextures.com/patterns/45-degree-fabric-light.png");
 }
 
 .icon-position {
-  margin-top: 150px;  
+  margin-top: 25%;
 }

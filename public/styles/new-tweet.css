@@ -4,9 +4,8 @@ form {
 }
 
 label {
-  border-bottom: 5px solid gray;
   font-weight: bold;
-  padding-bottom: 1em;
+  margin-bottom: 0.5em;
 }
 
 div {
@@ -22,4 +21,10 @@ button {
 
 output {
   font-weight: bold;
+}
+
+#error-message {
+  color: red;
+  display: flex;
+  justify-content: center;
 }
